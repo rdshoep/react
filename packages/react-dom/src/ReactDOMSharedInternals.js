@@ -10,6 +10,7 @@
 import type {HostDispatcher} from './ReactDOMDispatcher';
 
 type InternalsType = {
+  // 用于引导用法的标记，引导使用react-dom/client.createRoot替换react-dom.createRoot
   usingClientEntryPoint: boolean,
   Events: [any, any, any, any, any, any],
   Dispatcher: {

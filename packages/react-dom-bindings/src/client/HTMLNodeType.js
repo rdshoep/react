@@ -10,7 +10,7 @@
 /**
  * HTML nodeType values that represent the type of the node
  */
-
+// https://developer.mozilla.org/zh-CN/docs/Web/API/Node/nodeType
 export const ELEMENT_NODE = 1;
 export const TEXT_NODE = 3;
 export const COMMENT_NODE = 8;
